@@ -91,6 +91,7 @@ export default function Currency1() {
             <div className="container m-2 p-2 border-2 text-center h6">
               <p>{amount} {fromCurrency} is equal to {convertedAmount} {toCurrency}</p>
             </div>
+            <p className='fst-italic'>Designed By <a href="https://www.linkedin.com/in/muthu-ammew/" rel="noreferrer" target='_blank'>Muthu</a></p>
           </div>
         </div>
       </div>

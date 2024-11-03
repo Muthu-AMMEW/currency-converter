@@ -54,13 +54,13 @@ export default function Currency1() {
             <div className='text-center text-success h2 mt-2'>Currency Converter</div>
 
 
-            <div className=" container m-2 p-2 border-2">
-              <label className=" form-label h6" htmlFor="amt">Amount</label>
-              <input className=" form-control" type="number" name="" id="amt" value={amount} onChange={handleAmountChange} />
+            <div className="container m-2 p-2 border-2">
+              <label className="form-label h6" htmlFor="amt">Amount</label>
+              <input className="form-control" type="number" name="" id="amt" value={amount} onChange={handleAmountChange} />
             </div>
-            <div className="  container m-2 p-2 border-2">
-              <label className=" form-label h6" htmlFor="fromCurrency">From Currency</label>
-              <select className=" form-select" id="fromCurrency" value={fromCurrency} onChange={handleFromCurrencyChange}>
+            <div className="container m-2 p-2 border-2">
+              <label className="form-label h6" htmlFor="fromCurrency">From Currency</label>
+              <select className="form-select" id="fromCurrency" value={fromCurrency} onChange={handleFromCurrencyChange}>
                 <option value="USD">USD - united States Dollar</option>
                 <option value="EUR">EUR - Euro</option>
                 <option value="GBP">GBP - British Pound Sterling</option>
@@ -73,9 +73,9 @@ export default function Currency1() {
                 <option value="ZAR">ZAR - South African Rand</option>
               </select>
             </div>
-            <div className="  container m-2 p-2 border-2">
-              <label className=" form-label h6" htmlFor="toCurrency">To Currency</label>
-              <select className=" form-select" id="toCurrency" value={toCurrency} onChange={handleToCurrencyChange}>
+            <div className="container m-2 p-2 border-2">
+              <label className="form-label h6" htmlFor="toCurrency">To Currency</label>
+              <select className="form-select" id="toCurrency" value={toCurrency} onChange={handleToCurrencyChange}>
                 <option value="USD">USD - united States Dollar</option>
                 <option value="EUR">EUR - Euro</option>
                 <option value="GBP">GBP - British Pound Sterling</option>
